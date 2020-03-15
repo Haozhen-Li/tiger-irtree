@@ -29,7 +29,8 @@ T_exp Tr_array(T_exp size, T_exp init);
 T_exp Tr_call(Temp_label label, T_expList args);
 
 T_stm Tr_varDec(Tr_access acc, T_exp exp);
-void Tr_funDec(T_exp body);
+// void Tr_funDec(T_exp body);
+// removed as instructed on piazza @137
 
 void Tr_procEntryExit(Tr_level level, T_exp body, Tr_accessList formals);
 F_fragList Tr_getResult(void);
